@@ -1,5 +1,5 @@
-def greeting(name, language = "Ruby")
+def greeting(name="Ruby Programmer", language)
   puts "Hello #{name}, We heard you are a great #{language} programmer"
 end
 
-greeting("Brian")
+greeting("C++")
